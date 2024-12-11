@@ -1,25 +1,25 @@
 .manrope {
-  font-family: "Manrope", sans-serif;
+  font-family: "Lato", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
 }
 
 .viaoda-libre-regular {
-  font-family: "Viaoda Libre", serif;
-  font-weight: 400;
+  font-family: "Lora", serif;
+  font-weight: 200;
   font-style: normal;
 }
 
 body {
-  background-color: #5F2630;
+  background-color: #222a34;
   color: #fff;
   padding-top: 24px;
   min-width: 360px;
 }
 body h1, body h2, body h3 {
   color: #C7AB77;
-  font-family: "Viaoda Libre", serif;
+  font-family: "Lora", serif;
   font-weight: 400;
   text-transform: uppercase;
 }
