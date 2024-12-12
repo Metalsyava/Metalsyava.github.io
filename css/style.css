@@ -1,12 +1,6 @@
-.manrope {
+.lato {
   font-family: "Lato", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.viaoda-libre-regular {
-  font-family: "Lora", serif;
   font-weight: 200;
   font-style: normal;
 }
@@ -16,6 +10,14 @@ body {
   color: #fff;
   padding-top: 24px;
   min-width: 360px;
+  /* Центрирование содержимого */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  /* Задаём минимальную высоту, чтобы тело занимало весь экран */
+  min-height: 100vh;
+  margin: 0;
 }
 body h1, body h2, body h3 {
   color: #C7AB77;
@@ -27,23 +29,6 @@ body p {
   margin-bottom: 0;
 }
 
-/*header {*/
-/*  height: 76px;*/
-/*  background-color: #C7AB77;*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  width: 100%;*/
-/*  display: flex;*/
-/*  align-items: center;*/
-/*}*/
-/*header .h3 a {*/
-/*  font-family: "Viaoda Libre", serif;*/
-/*  text-decoration: none;*/
-/*  color: #5F2630;*/
-/*  font-weight: 100;*/
-/*  text-transform: uppercase;*/
-/*}*/
-
 main h1 {
   margin-top: 30px;
 }
@@ -51,21 +36,33 @@ main h1 {
 section {
   margin-top: 60px;
 }
+section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 #dainput {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 #dainput p {
-  margin-bottom: 20px;
+  padding-bottom: 15px;
+  text-align: left;
 }
+
 #dainput label {
   margin-bottom: 5px;
 }
 #dainput select, #dainput input {
   font-size: 20px;
   padding: 15px 20px;
-  background-color: #743944;
+/*  background-color: #743944;*/
+  background-color: #222a34;
   border: 1px solid #C7AB77;
   border-radius: 15px;
   margin-right: 15px;
@@ -76,17 +73,23 @@ section {
   width: 110px;
 }
 #dainput .calculate {
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: rgb(199, 171, 119);
   background-image: linear-gradient(110deg, rgb(221, 204, 173), rgb(199, 171, 119));
   font-size: 17px;
   padding: 16px 36px;
   border-radius: 40px;
   border: none;
+  width: 100%;
+  max-width: 360px;
 }
 #dainput .calculate:hover {
   background: rgb(199, 171, 119);
   cursor: pointer;
+}
+#dainput .d-flex {
+  display: flex;
+  gap: 15px; /* Расстояние между полями */
 }
 
 .astar {
@@ -360,13 +363,14 @@ section {
 }
 
 .tname {
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 15px;
-  background-color: #743944;
+  background-color: #222a34;
   border: 1px solid #C7AB77;
   border-radius: 15px;
   margin-right: 5px;
   color: #fff;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 767px) {
