@@ -105,7 +105,7 @@ section .container {
 .tcard {
   transition: all 0.1s ease;
   border: 1px solid #C7AB77;
-  background-color: #743944;
+  background-color: #222a34;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   padding: 5px;
