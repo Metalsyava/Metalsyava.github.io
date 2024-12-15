@@ -7,28 +7,28 @@ function calculateSum() {
 
 		let pimg = [];
 		pimg[0] = '';
-		pimg[1] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166ac02e69e842635e8936';
-		pimg[2] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166abf8472c0c434223d1f';
-		pimg[3] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166ab7fa32f36305f3c9fc';
-		pimg[4] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166ab3a520addf486e9ae9';
-		pimg[5] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166ab02e69e842635e88c9';
-		pimg[6] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166aaea520addf486e9ab7';
-		pimg[7] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a9dfa32f36305f3c976';
-		pimg[8] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a9bfa32f36305f3c946';
-		pimg[9] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a9979127363c5ec325c';
-		pimg[10] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a9779127363c5ec3246';
-		pimg[11] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a958472c0c434223c40';
-		pimg[12] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a7ea520addf486e9987';
-		pimg[13] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a7c2e69e842635e87bf';
-		pimg[14] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a7a79127363c5ec31de';
-		pimg[15] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a78fa32f36305f3c859';
-		pimg[16] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a77fa32f36305f3c83f';
-		pimg[17] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a4f79127363c5ec3137';
-		pimg[18] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a4d2e69e842635e8704';
-		pimg[19] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a4aa520addf486e989d';
-		pimg[20] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a488472c0c434223b09';
-		pimg[21] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a43fa32f36305f3c760';
-		pimg[22] =	'//res2.weblium.site/res/64cb8ed4c14740000f01a652/67166a412e69e842635e86ce';
+		pimg[1] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/01.jpg';
+		pimg[2] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/02.jpg';
+		pimg[3] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/03.jpg';
+		pimg[4] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/04.jpg';
+		pimg[5] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/05.jpg';
+		pimg[6] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/06.jpg';
+		pimg[7] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/07.jpg';
+		pimg[8] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/08.jpg';
+		pimg[9] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/09.jpg';
+		pimg[10] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/10.jpg';
+		pimg[11] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/11.jpg';
+		pimg[12] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/12.jpg';
+		pimg[13] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/13.jpg';
+		pimg[14] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/14.jpg';
+		pimg[15] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/15.jpg';
+		pimg[16] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/16.jpg';
+		pimg[17] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/17.jpg';
+		pimg[18] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/18.jpg';
+		pimg[19] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/19.jpg';
+		pimg[20] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/20.jpg';
+		pimg[21] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/21.jpg';
+		pimg[22] =	'https://github.com/Metalsyava/Metalsyava.github.io/blob/main/img/22.jpg';
 
 
 		// =========== CHOOSEN
